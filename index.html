@@ -67,14 +67,14 @@
                     <p class="text-xl font-medium text-center mt-6">Balance: <span id="total-balance"></span> </p>
                 </div>
                 <!-- SAVE AMOUNT -->
-                <div class="grid grid-cols-1 md:grid-cols-2 md:w-3/4 gap-x-4 mx-auto">
-                    <div>
+                <div class="grid grid-cols-1 md:grid-cols-6  lg:w-3/4 gap-2 lg:gap-4 mx-auto">
+                    <div class="md:col-span-3 mx-auto">
                         <span class="text-xl">Save: </span>
                         <input type="number" name="savings" id="savings-field"
                             class="border-0 outline-0 bg-neutral-300 px-3 py-1 font-semibold tracking-widest w-3/5 ">
                     </div>
-                    <div>
-                    <span class="text-xl text-center">%</span>
+                    <span class="text-xl text-center md:col-span-1">%</span>
+                    <div class="md:col-span-2 mx-auto">
                     <button
                         class="bg-blue-500 hover:bg-blue-600 px-6 py-1 font-medium text-xl text-white rounded-lg ml-5"
                         id="save-amount">Save</button>
